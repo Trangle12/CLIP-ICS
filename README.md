@@ -1,2 +1,1 @@
-# CLIP-ICS
-CLIP-ICS ReID
+# CCAFL
