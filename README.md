@@ -1,1 +1,82 @@
-# CCAFL
+<p align="center">
+  <h1 align="center">CLIP-based Camera-Agnostic Feature Learning for Intra-camera Person Re-Identification</h1>
+<p align="center">
+  <a href="https://arxiv.org/abs/2409.19563" rel="external nofollow noopener" target="_blank">Paper Link</a>
+
+![CCAFL](imgs/framework.png)
+This is an official code implementation of "CLIP-based Camera-Agnostic Feature Learning for Intra-camera Person Re-Identification".
+
+
+## Requirements
+- python 3.8.13
+- torch 1.8.0
+- torchvision 1.12.0
+- scikit-learn 1.2.2
+
+
+### Preparation
+
+**Requirements: Pytorch>=1.1.0 and python>=3.6**
+Download the datasets:
+
+For privacy reasons, we don't have the dataset's copyright. Please contact authors to get this dataset.
+
+```
+DukeMTMC-reID/
+├── bounding_box_test
+├── bounding_box_train
+└── query
+
+Market-1501-v15.09.15/
+├── bounding_box_test
+├── bounding_box_train
+├── gt_bbox
+├── gt_query
+└── query
+
+MSMT17/
+├── bounding_box_test
+├── bounding_box_train
+└── query
+
+```
+
+## Performance
+
+![perf](assets/perf.png)
+
+### Intra-camera Supervised Person ReID
+
+##### Market-1501
+| Model         | Image Size|Paper | Download |
+| :------:      | :------: |:------: |:------: |
+| Resnet50      | 256*128 |90.1/96.1 |[model](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link) / [log](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link)|
+
+##### MSMT17
+| Model         | Image Size|Paper | Download |
+| :------:      | :------: |:------: |:------: |
+| Resnet50      | 256*128 |58.9/82.9 |[model](https://drive.google.com/drive/folders/1qIdEnHg5wOKY-yZ7NIkZt7Vlp9ZMNM0o?usp=drive_link) / [log](https://drive.google.com/drive/folders/1qIdEnHg5wOKY-yZ7NIkZt7Vlp9ZMNM0o?usp=drive_link)|
+
+##### DukeMTMC-ReID
+| Model         | Image Size|Paper | Download |
+| :------:      | :------: |:------: |:------: |
+| Resnet50      | 256*128 |81.5/90.8 |[model](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link) / [log](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link)|
+
+## Citation
+If our work is helpful for your research, please consider citing:
+```bibtex
+@ARTICLE{10534060,
+  author={Gong, Xun and Tan, Xuan and Xiang, Yang},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Contrastive Mean Teacher for Intra-camera Supervised Person Re-Identification}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Cameras;Pedestrians;Training;Feature extraction;Computational modeling;Lighting;Data models;Intra-camera supervision;Mean Teacher;Contrastive learning;Person re-identification},
+  doi={10.1109/TCSVT.2024.3402533}}
+```
+
+
+## Acknowledgements
+
