@@ -43,7 +43,7 @@ MSMT17/
 
 ## Performance
 
-![perf](assets/perf.png)
+![perf](imgs/perf.png)
 
 ### Intra-camera Supervised Person ReID
 
