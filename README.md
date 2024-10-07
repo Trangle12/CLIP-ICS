@@ -27,16 +27,11 @@ This is an official code implementation of "CLIP-based Camera-Agnostic Feature L
 
 ### Preparation
 
-**Requirements: Pytorch>=1.1.0 and python>=3.6**
 Download the datasets:
 
 For privacy reasons, we don't have the dataset's copyright. Please contact authors to get this dataset.
 
 ```
-DukeMTMC-reID/
-├── bounding_box_test
-├── bounding_box_train
-└── query
 
 Market-1501-v15.09.15/
 ├── bounding_box_test
@@ -46,6 +41,11 @@ Market-1501-v15.09.15/
 └── query
 
 MSMT17/
+├── bounding_box_test
+├── bounding_box_train
+└── query
+
+DukeMTMC-reID/
 ├── bounding_box_test
 ├── bounding_box_train
 └── query
@@ -86,8 +86,7 @@ If our work is helpful for your research, please consider citing:
   pages={1-1},
   keywords={Cameras;Pedestrians;Training;Feature extraction;Computational modeling;Lighting;Data models;Intra-camera supervision;Mean Teacher;Contrastive learning;Person re-identification},
   doi={10.1109/TCSVT.2024.3402533}}
-```
-```
+
 @unknown{unknown,
 author = {Tan, Xuan and Gong, Xun and Xiang, Yang},
 year = {2024},
