@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2409.19563" rel="external nofollow noopener" target="_blank">Paper Link</a>
 
-![CCAFL](imgs/framework.png)
+![CCAFL](imgs/overview.png)
 This is an official code implementation of "CLIP-based Camera-Agnostic Feature Learning for Intra-camera Person Re-Identification".
 
 
