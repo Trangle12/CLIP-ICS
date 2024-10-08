@@ -18,13 +18,6 @@ This is an official code implementation of "CLIP-based Camera-Agnostic Feature L
 ### Update Time
 -- 2024 We will release the code when the paper is accepted.
 
-## Requirements
-- python 3.8.13
-- torch 1.8.0
-- torchvision 1.12.0
-- scikit-learn 1.2.2
-
-
 ### Preparation
 
 Download the datasets:
