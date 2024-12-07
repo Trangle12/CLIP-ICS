@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">CLIP-based Camera-Agnostic Feature Learning for Intra-camera Person Re-Identification</h1>
+  <h1 align="center">CLIP-based Camera-Agnostic Feature Learning for Intra-camera Supervised Person Re-Identification</h1>
   <p align="center">
     <a href="https://scholar.google.com.tw/citations?hl=zh-CN&user=3jWe9KAAAAAJ" rel="external nofollow noopener" target="_blank"><strong>Xuan Tan</strong></a>
     ·
@@ -11,7 +11,7 @@
  <a href="https://arxiv.org/abs/2409.19563" rel="external nofollow noopener" target="_blank">Paper Link</a>
   
 ### Method
-![CCAFL](imgs/overview.pdf)
+![CCAFL](imgs/overview.png)
 
 This is an official code implementation of "CLIP-based Camera-Agnostic Feature Learning for Intra-camera Person Re-Identification".
 
