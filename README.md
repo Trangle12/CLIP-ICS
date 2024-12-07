@@ -45,6 +45,11 @@ DukeMTMC-reID/
 
 ```
 
+## Training
+```shell
+sh train.sh 
+```
+
 ## Performance
 
 ![perf](imgs/perf.png)
@@ -54,17 +59,17 @@ DukeMTMC-reID/
 ##### Market-1501
 | Model        |Pretrained	 | Image Size|Paper | Download |
 | :------:     |  :------: | :------: |:------: |:------: |
-| Resnet50     | CLIP | 256*128 |90.1/96.1 |[model](https://drive.google.com/file/d/1-o7XVkheqhIUV_QUayqmp0goO87xSf4Y/view?usp=drive_link) / [log](https://drive.google.com/file/d/1TeoGPORL3HjzHIejbNH4h-8lHk8FaXwE/view?usp=drive_link)|
+| Resnet50     | CLIP | 256*128 |90.1/96.0 |[model](https://drive.google.com/file/d/1-o7XVkheqhIUV_QUayqmp0goO87xSf4Y/view?usp=drive_link) / [log](https://drive.google.com/file/d/1TeoGPORL3HjzHIejbNH4h-8lHk8FaXwE/view?usp=drive_link)|
 
 ##### MSMT17
 | Model      |Pretrained  | Image Size|Paper | Download |
 | :------:     |  :------: |  :------: |:------: |:------: |
-| Resnet50    | CLIP | 256*128 |58.9/82.9 |[model](https://drive.google.com/drive/folders/1qIdEnHg5wOKY-yZ7NIkZt7Vlp9ZMNM0o?usp=drive_link) / [log](https://drive.google.com/drive/folders/1qIdEnHg5wOKY-yZ7NIkZt7Vlp9ZMNM0o?usp=drive_link)|
+| Resnet50    | CLIP | 256*128 |58.9/82.9 |[model](https://drive.google.com/file/d/1EI5Bv9Y_bZISW9Cql7-VXIuspfPtcEwc/view?usp=drive_link) / [log](https://drive.google.com/file/d/1e_aOp7RJd4Zc3cKn_VfmEFZ9Y7SnazLT/view?usp=drive_link)|
 
 ##### DukeMTMC-ReID
 | Model     |Pretrained    | Image Size|Paper | Download |
 | :------:    |  :------:    | :------: |:------: |:------: |
-| Resnet50    | CLIP | 256*128 |81.5/90.8 |[model](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link) / [log](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link)|
+| Resnet50    | CLIP | 256*128 |81.5/90.8 |[model](https://drive.google.com/file/d/1c_bJlIe42ByHoKBkhNDMfZ56bNv5R3cu/view?usp=drive_link) / [log](https://drive.google.com/file/d/1tpXkMR5xEwZ-sAXk_7Tard7bfXqBGbKv/view?usp=drive_link)|
 
 ## Citation
 If our work is helpful for your research, please consider citing:
