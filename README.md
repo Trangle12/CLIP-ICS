@@ -54,7 +54,7 @@ DukeMTMC-reID/
 ##### Market-1501
 | Model        |Pretrained	 | Image Size|Paper | Download |
 | :------:     |  :------: | :------: |:------: |:------: |
-| Resnet50     | CLIP | 256*128 |90.1/96.1 |[model](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link) / [log](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link)|
+| Resnet50     | CLIP | 256*128 |90.1/96.1 |[model]([https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link](https://drive.google.com/drive/folders/1HDHnP7gmI_Ir2O9s3IYbcdUm6MWbPEYf?usp=sharing)) / [log]([https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link](https://drive.google.com/drive/folders/1HDHnP7gmI_Ir2O9s3IYbcdUm6MWbPEYf?usp=sharing))|
 
 ##### MSMT17
 | Model      |Pretrained  | Image Size|Paper | Download |
