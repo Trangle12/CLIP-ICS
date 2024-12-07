@@ -16,7 +16,8 @@
 This is an official code implementation of "CLIP-based Camera-Agnostic Feature Learning for Intra-camera Supervised Person Re-Identification".
 
 ### Update Time
--- 2024 We will release the code when the paper is accepted.
+-- 2024-12 We release the model weight.
+-- 2024-9 We will release the code when the paper is accepted.
 
 ### Preparation
 
