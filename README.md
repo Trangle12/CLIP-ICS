@@ -16,7 +16,9 @@
 This is an official code implementation of "CLIP-based Camera-Agnostic Feature Learning for Intra-camera Supervised Person Re-Identification".
 
 ### Update Time
--- 2024-12 We release the model's weight.
+-- 2024-12 The code has released!!!
+ 
+-- 2024-12 CCAFL is accepted by TCSVT25! 🎉🎉
 
 -- 2024-9 We will release the code when the paper is accepted.
 
