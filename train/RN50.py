@@ -54,7 +54,7 @@ class TextEncoder(nn.Module):
 class build_rn50(nn.Module):
     def __init__(self, args, camera_num):
         super(build_rn50, self).__init__()
-        self.model_name = 'RN101'  #RN101  RN50x4  RN50
+        self.model_name = 'RN50'
         self.in_planes = 2048
         self.in_planes_proj = 1024
         self.bottleneck = nn.BatchNorm1d(self.in_planes)
