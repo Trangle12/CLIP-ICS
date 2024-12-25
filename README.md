@@ -56,7 +56,7 @@ sh train.sh
 
 ## Performance
 
-![perf](imgs/perf.png)
+![perf](imgs/performance.png)
 
 ### Intra-camera Supervised Person ReID
 
