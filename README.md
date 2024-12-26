@@ -8,7 +8,10 @@
     <a href="https://scholar.google.com.tw/citations?user=oW4vMVkAAAAJ&hl=zh-CN&oi=sra" target="_blank"><strong>Yang Xiang</strong></a>
   </p>
 <p align="center">
- <a href="https://arxiv.org/abs/2409.19563" rel="external nofollow noopener" target="_blank">Paper Link</a>
+ <a href="https://arxiv.org/abs/2409.19563" rel="external nofollow noopener" target="_blank">Arxiv Paper Link</a>
+<p align="center">
+ <a href=" https://ieeexplore.ieee.org/document/10813454" rel="external nofollow noopener" target="_blank">IEEE Paper Link</a>
+
   
 ### Method
 ![CCAFL](imgs/overview.png)
