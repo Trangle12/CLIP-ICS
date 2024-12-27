@@ -92,14 +92,17 @@ If our work is helpful for your research, please consider citing:
   keywords={Cameras;Pedestrians;Training;Feature extraction;Computational modeling;Lighting;Data models;Intra-camera supervision;Mean Teacher;Contrastive learning;Person re-identification},
   doi={10.1109/TCSVT.2024.3402533}}
 
-@unknown{unknown,
-author = {Tan, Xuan and Gong, Xun and Xiang, Yang},
-year = {2024},
-month = {09},
-pages = {},
-title = {CLIP-based Camera-Agnostic Feature Learning for Intra-camera Person Re-Identification},
-doi = {10.48550/arXiv.2409.19563}
-}
+@ARTICLE{10813454,
+  author={Tan, Xuan and Gong, Xun and Xiang, Yang},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={CLIP-based Camera-Agnostic Feature Learning for Intra-camera Supervised Person Re-Identification}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Cameras;Pedestrians;Annotations;Identification of persons;Semantics;Representation learning;Contrastive learning;Accuracy;Training;Labeling;Person re-identification;CLIP;intra-camera supervision;camera-based adversarial loss},
+  doi={10.1109/TCSVT.2024.3522178}}
+
 ```
 
 ## Acknowledgements
