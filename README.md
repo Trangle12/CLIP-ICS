@@ -52,6 +52,25 @@ DukeMTMC-reID/
 
 ```
 
+### Installation
+
+```
+conda create -n cclnet python=3.9
+conda activate cclnet
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+conda install tqdm
+conda install scikit-learn
+
+pip install yacs
+pip install timm
+pip install scikit-image
+pip install ftfy
+pip install easydict
+pip install regex
+pip install faiss-gpu
+```
+
+
 ## Training
 ```shell
 sh train.sh 
@@ -105,5 +124,14 @@ If our work is helpful for your research, please consider citing:
 
 ```
 
-## Acknowledgements
+### References.
+
+[1] Bianchi, Federico, et al. "Contrastive language-image pre-training for the italian language." arXiv preprint arXiv:2108.08688 (2021).
+
+[2] Zhou, Kaiyang, et al. "Learning to prompt for vision-language models." International Journal of Computer Vision 130.9 (2022): 2337-2348.
+
+[3] Li, Siyuan, Li Sun, and Qingli Li. "Clip-reid: Exploiting vision-language model for image re-identification without concrete text labels." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 37. No. 1. 2023.
+
+[4] Dai, Zuozhuo, et al. "Cluster contrast for unsupervised person re-identification." Proceedings of the Asian Conference on Computer Vision. 2022.
+
 
