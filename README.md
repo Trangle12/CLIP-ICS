@@ -73,7 +73,7 @@ pip install faiss-gpu
 
 ## Training
 ```shell
-sh train.sh 
+sh run_usl.sh 
 ```
 
 ## Performance
